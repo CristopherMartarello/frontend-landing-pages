@@ -18,7 +18,7 @@ module.exports = {
       ecmaVersion: 'latest',
       sourceType: 'module',
     },
-    plugins: ['react', 'prettier', 'react-hooks'],
+    plugins: ['react', 'prettier', 'react-hooks', 'storybook'],
     settings: {
       react: {
         version: 'detect',
@@ -29,4 +29,3 @@ module.exports = {
       'no-unused-vars': 'off',
     },
   };
-  
